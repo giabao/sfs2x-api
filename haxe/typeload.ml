@@ -2679,7 +2679,9 @@ let add_module ctx m p =
 		try
 			let m2 = Hashtbl.find ctx.g.types_module t.mt_path in
 			if m.m_path <> m2 && String.lowercase (s_type_path m2) = String.lowercase (s_type_path m.m_path) then error ("Module " ^ s_type_path m2 ^ " is loaded with a different case than " ^ s_type_path m.m_path) p;
-			error ("Type name " ^ s_type_path t.mt_path ^ " is redefined from module " ^ s_type_path m2) p
+			ctx.com.warning ("Type name " ^ s_type_path t.mt_path ^ " is redefined from module " ^ s_type_path m2) p;
+			(* error ("Type name " ^ s_type_path t.mt_path ^ " is redefined from module " ^ s_type_path m2) p *)
+			Hashtbl.remove ctx.g.types_module t.mt_path
 		with
 			Not_found ->
 				Hashtbl.add ctx.g.types_module t.mt_path m.m_path
