@@ -4,8 +4,8 @@
   "license": "MIT",
   "tags": ["smartfox", "smartfoxserver", "smartfoxserver2x"],
    "description": "smartfoxserver2x headers generated from SFS2X_API_AS3.swc",
-   "version": "1.2.5",
-   "releasenote": "init release",
+   "version": "1.2.51",
+   "releasenote": "patch types",
    "contributors": ["SanDinh.com"],
    "dependencies": {} 
 }     

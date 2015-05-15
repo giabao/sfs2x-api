@@ -1,3 +1,132 @@
 -de.polygonal.ds.Array2.clear
-
 -de.polygonal.ds.Collection.clear
+
+//ISFSObject
+com.smartfoxserver.v2.entities.data.ISFSObject.getBoolArray : Array<Bool>;
+com.smartfoxserver.v2.entities.data.ISFSObject.$putBoolArray__value : Array<Bool>;
+
+com.smartfoxserver.v2.entities.data.ISFSObject.getUnsignedByteArray : Array<Int>;
+
+com.smartfoxserver.v2.entities.data.ISFSObject.getShortArray : Array<Int>;
+com.smartfoxserver.v2.entities.data.ISFSObject.$putShortArray__value : Array<Int>;
+
+com.smartfoxserver.v2.entities.data.ISFSObject.getIntArray : Array<Int>;
+com.smartfoxserver.v2.entities.data.ISFSObject.$putIntArray__value : Array<Int>;
+
+com.smartfoxserver.v2.entities.data.ISFSObject.getLongArray : Array<Float>;
+com.smartfoxserver.v2.entities.data.ISFSObject.$putLongArray__value : Array<Float>;
+
+com.smartfoxserver.v2.entities.data.ISFSObject.getFloatArray : Array<Float>;
+com.smartfoxserver.v2.entities.data.ISFSObject.$putFloatArray__value : Array<Float>;
+
+com.smartfoxserver.v2.entities.data.ISFSObject.getDoubleArray : Array<Float>;
+com.smartfoxserver.v2.entities.data.ISFSObject.$putDoubleArray__value : Array<Float>;
+
+com.smartfoxserver.v2.entities.data.ISFSObject.getKeys : Array<String>;
+
+com.smartfoxserver.v2.entities.data.ISFSObject.getUtfStringArray : Array<String>;
+com.smartfoxserver.v2.entities.data.ISFSObject.$putUtfStringArray__value : Array<String>;
+
+//SFSObject
+com.smartfoxserver.v2.entities.data.SFSObject.getBoolArray : Array<Bool>;
+com.smartfoxserver.v2.entities.data.SFSObject.$putBoolArray__value : Array<Bool>;
+
+com.smartfoxserver.v2.entities.data.SFSObject.getUnsignedByteArray : Array<Int>;
+
+com.smartfoxserver.v2.entities.data.SFSObject.getShortArray : Array<Int>;
+com.smartfoxserver.v2.entities.data.SFSObject.$putShortArray__value : Array<Int>;
+
+com.smartfoxserver.v2.entities.data.SFSObject.getIntArray : Array<Int>;
+com.smartfoxserver.v2.entities.data.SFSObject.$putIntArray__value : Array<Int>;
+
+com.smartfoxserver.v2.entities.data.SFSObject.getLongArray : Array<Float>;
+com.smartfoxserver.v2.entities.data.SFSObject.$putLongArray__value : Array<Float>;
+
+com.smartfoxserver.v2.entities.data.SFSObject.getFloatArray : Array<Float>;
+com.smartfoxserver.v2.entities.data.SFSObject.$putFloatArray__value : Array<Float>;
+
+com.smartfoxserver.v2.entities.data.SFSObject.getDoubleArray : Array<Float>;
+com.smartfoxserver.v2.entities.data.SFSObject.$putDoubleArray__value : Array<Float>;
+
+com.smartfoxserver.v2.entities.data.SFSObject.getKeys : Array<String>;
+
+com.smartfoxserver.v2.entities.data.SFSObject.getUtfStringArray : Array<String>;
+com.smartfoxserver.v2.entities.data.SFSObject.$putUtfStringArray__value : Array<String>;
+
+//ISFSArray
+com.smartfoxserver.v2.entities.data.ISFSArray.getBoolArray : Array<Bool>;
+com.smartfoxserver.v2.entities.data.ISFSArray.$addBoolArray__value : Array<Bool>;
+
+com.smartfoxserver.v2.entities.data.ISFSArray.getUnsignedByteArray : Array<Int>;
+
+com.smartfoxserver.v2.entities.data.ISFSArray.getShortArray : Array<Int>;
+com.smartfoxserver.v2.entities.data.ISFSArray.$addShortArray__value : Array<Int>;
+
+com.smartfoxserver.v2.entities.data.ISFSArray.getIntArray : Array<Int>;
+com.smartfoxserver.v2.entities.data.ISFSArray.$addIntArray__value : Array<Int>;
+
+com.smartfoxserver.v2.entities.data.ISFSArray.getLongArray : Array<Float>;
+com.smartfoxserver.v2.entities.data.ISFSArray.$addLongArray__value : Array<Float>;
+
+com.smartfoxserver.v2.entities.data.ISFSArray.getFloatArray : Array<Float>;
+com.smartfoxserver.v2.entities.data.ISFSArray.$addFloatArray__value : Array<Float>;
+
+com.smartfoxserver.v2.entities.data.ISFSArray.getDoubleArray : Array<Float>;
+com.smartfoxserver.v2.entities.data.ISFSArray.$addDoubleArray__value : Array<Float>;
+
+com.smartfoxserver.v2.entities.data.ISFSArray.getUtfStringArray : Array<String>;
+com.smartfoxserver.v2.entities.data.ISFSArray.$addUtfStringArray__value : Array<String>;
+
+//SFSArray
+com.smartfoxserver.v2.entities.data.SFSArray.getBoolArray : Array<Bool>;
+com.smartfoxserver.v2.entities.data.SFSArray.$addBoolArray__value : Array<Bool>;
+
+com.smartfoxserver.v2.entities.data.SFSArray.getUnsignedByteArray : Array<Int>;
+
+com.smartfoxserver.v2.entities.data.SFSArray.getShortArray : Array<Int>;
+com.smartfoxserver.v2.entities.data.SFSArray.$addShortArray__value : Array<Int>;
+
+com.smartfoxserver.v2.entities.data.SFSArray.getIntArray : Array<Int>;
+com.smartfoxserver.v2.entities.data.SFSArray.$addIntArray__value : Array<Int>;
+
+com.smartfoxserver.v2.entities.data.SFSArray.getLongArray : Array<Float>;
+com.smartfoxserver.v2.entities.data.SFSArray.$addLongArray__value : Array<Float>;
+
+com.smartfoxserver.v2.entities.data.SFSArray.getFloatArray : Array<Float>;
+com.smartfoxserver.v2.entities.data.SFSArray.$addFloatArray__value : Array<Float>;
+
+com.smartfoxserver.v2.entities.data.SFSArray.getDoubleArray : Array<Float>;
+com.smartfoxserver.v2.entities.data.SFSArray.$addDoubleArray__value : Array<Float>;
+
+com.smartfoxserver.v2.entities.data.SFSArray.getUtfStringArray : Array<String>;
+com.smartfoxserver.v2.entities.data.SFSArray.$addUtfStringArray__value : Array<String>;
+
+//SmartFox
+com.smartfoxserver.v2.SmartFox.joinedRooms : Array<com.smartfoxserver.v2.entities.Room>;
+com.smartfoxserver.v2.SmartFox.roomList : Array<com.smartfoxserver.v2.entities.Room>;
+com.smartfoxserver.v2.SmartFox.getRoomListFromGroup : Array<com.smartfoxserver.v2.entities.Room>;
+
+//Room
+com.smartfoxserver.v2.entities.Room.spectatorList : Array<com.smartfoxserver.v2.entities.User>;
+com.smartfoxserver.v2.entities.Room.userList : Array<com.smartfoxserver.v2.entities.User>;
+
+com.smartfoxserver.v2.entities.Room.getVariables : Array<com.smartfoxserver.v2.entities.variables.RoomVariable>;
+com.smartfoxserver.v2.entities.Room.$setVariables__roomVariables : Array<com.smartfoxserver.v2.entities.variables.RoomVariable>;
+
+//SFSRoom
+com.smartfoxserver.v2.entities.SFSRoom.spectatorList : Array<com.smartfoxserver.v2.entities.User>;
+com.smartfoxserver.v2.entities.SFSRoom.userList : Array<com.smartfoxserver.v2.entities.User>;
+
+com.smartfoxserver.v2.entities.SFSRoom.getVariables : Array<com.smartfoxserver.v2.entities.variables.RoomVariable>;
+com.smartfoxserver.v2.entities.SFSRoom.$setVariables__roomVariables : Array<com.smartfoxserver.v2.entities.variables.RoomVariable>;
+
+//User
+com.smartfoxserver.v2.entities.User.getVariables : Array<com.smartfoxserver.v2.entities.variables.UserVariable>;
+com.smartfoxserver.v2.entities.User.$setVariables__userVariables : Array<com.smartfoxserver.v2.entities.variables.UserVariable>;
+
+//SFSUser
+com.smartfoxserver.v2.entities.SFSUser.getVariables : Array<com.smartfoxserver.v2.entities.variables.UserVariable>;
+com.smartfoxserver.v2.entities.SFSUser.$setVariables__userVariables : Array<com.smartfoxserver.v2.entities.variables.UserVariable>;
+
+//ClientDisconnectionReason
+enum com.smartfoxserver.v2.util.ClientDisconnectionReason;
