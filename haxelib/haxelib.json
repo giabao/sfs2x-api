@@ -1,0 +1,11 @@
+{     
+  "name": "sfs2x-api",
+  "url" : "https://github.com/giabao/sfs2x-api",
+  "license": "MIT",
+  "tags": ["smartfox", "smartfoxserver", "smartfoxserver2x", "openfl", "flash"],
+   "description": "re-publish SFS2X_API_AS3.swc removing all external dependencies for using in openfl. Also contain generated headers .hx files",
+   "version": "1.2.52",
+   "releasenote": "add SFS2X.swc",
+   "contributors": ["SanDinh.com"],
+   "dependencies": {} 
+}     

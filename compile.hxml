@@ -1,0 +1,4 @@
+--macro Include.keep()
+-cp haxelib
+-swf-version 11.2
+-swf ../lib/lib-hx.swc
