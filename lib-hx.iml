@@ -16,35 +16,13 @@
     <orderEntry type="jdk" jdkName="Haxe 3.2.0" jdkType="Haxe toolkit" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="haxelib|src">
+      <library name="haxelib|haxelib">
         <CLASSES>
-          <root url="file://src" />
+          <root url="file://haxelib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://src" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="haxelib|C:/HaxeToolkit/haxe/lib/polygonal-ds/git/src">
-        <CLASSES>
-          <root url="file://C:/HaxeToolkit/haxe/lib/polygonal-ds/git/src" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://C:/HaxeToolkit/haxe/lib/polygonal-ds/git/src" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="haxelib|C:/HaxeToolkit/haxe/lib/polygonal-printf/1,0,2-beta">
-        <CLASSES>
-          <root url="file://C:/HaxeToolkit/haxe/lib/polygonal-printf/1,0,2-beta" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://C:/HaxeToolkit/haxe/lib/polygonal-printf/1,0,2-beta" />
+          <root url="file://haxelib" />
         </SOURCES>
       </library>
     </orderEntry>
