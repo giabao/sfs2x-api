@@ -8,12 +8,15 @@ why not just use `-swf-lib SFS2X_API_AS3.swc` with the swc provide from smartfox
 see http://old.haxe.org/manual/swc
 
 2. remove dependencies:
-	+ ds_release_fp9.swc
+	+ ds_release_fp9.swc ([polygonal-ds](https://github.com/polygonal/ds))
 	+ as3reflect.swc
 	+ as3crypto.swc (only use class Base64)
+	+ the **incompatible** as class built from haxe types that transitively depend from polygonal-ds.
 
 3. Integrate better with haxe.
+
 Ex, with the following code:
+
 ```haxe
 import haxe.Json;
 import openfl.display.Sprite;
@@ -27,7 +30,8 @@ class Main extends Sprite {
 }
 ```
 
-if use SFS2X_API_AS3.swc download from smartfox then error:
+if use SFS2X_API_AS3.swc download from smartfox then error (But use this sfs2x-api lib => OK):
+
 ```
 ArgumentError: Error #1063: Argument count mismatch on MethodInfo-9(). Expected 1, got 3.
 	at Array$/_map()
@@ -35,7 +39,21 @@ ArgumentError: Error #1063: Argument count mismatch on MethodInfo-9(). Expected 
 	at Main()[O:\tmp\test-hx-gc\src\Main.hx:8]
 ```
 
-But use this sfs2x-api lib => OK!
+This error is because the `map` function is from [as3 Array](http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/Array.html#map%28%29)
+with `callback` function take 3 argument:
+
+```as3
+function map(callback:Function, thisObject:* = null):Array
+function callback(item:*, index:int, array:Array):String;
+```
+
+But the haxe version of `map`:
+
+```haxe
+function map<S>( f : T -> S ) : Array<S>;
+```
+
+Similar for many other types / fields
 
 ## Using
 ```
