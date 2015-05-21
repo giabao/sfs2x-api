@@ -3,12 +3,15 @@ re-publish SFS2X_API_AS3.swc removing all external dependencies for using in ope
 
 ## Features
 why not just use `-swf-lib SFS2X_API_AS3.swc` with the swc provide from smartfox? 
+
 1. This lib add the header .hx files
 see http://old.haxe.org/manual/swc
+
 2. remove dependencies:
-+ ds_release_fp9.swc
-+ as3reflect.swc
-+ as3crypto.swc (only use class Base64)
+	+ ds_release_fp9.swc
+	+ as3reflect.swc
+	+ as3crypto.swc (only use class Base64)
+
 3. Integrate better with haxe.
 Ex, with the following code:
 ```haxe
