@@ -107,6 +107,7 @@ com.smartfoxserver.v2.SmartFox.roomList : Array<com.smartfoxserver.v2.entities.R
 com.smartfoxserver.v2.SmartFox.getRoomListFromGroup : Array<com.smartfoxserver.v2.entities.Room>;
 
 //Room
+com.smartfoxserver.v2.entities.Room.playerList : Array<com.smartfoxserver.v2.entities.User>;
 com.smartfoxserver.v2.entities.Room.spectatorList : Array<com.smartfoxserver.v2.entities.User>;
 com.smartfoxserver.v2.entities.Room.userList : Array<com.smartfoxserver.v2.entities.User>;
 
@@ -114,6 +115,7 @@ com.smartfoxserver.v2.entities.Room.getVariables : Array<com.smartfoxserver.v2.e
 com.smartfoxserver.v2.entities.Room.$setVariables__roomVariables : Array<com.smartfoxserver.v2.entities.variables.RoomVariable>;
 
 //SFSRoom
+com.smartfoxserver.v2.entities.SFSRoom.playerList : Array<com.smartfoxserver.v2.entities.User>;
 com.smartfoxserver.v2.entities.SFSRoom.spectatorList : Array<com.smartfoxserver.v2.entities.User>;
 com.smartfoxserver.v2.entities.SFSRoom.userList : Array<com.smartfoxserver.v2.entities.User>;
 
